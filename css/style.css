@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Starjedi";
+  src: url('Starjedi.ttf') format('truetype');
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: #f9d71c;
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .3)), url('../img/galaxy.jpg');
+  background-size: cover;
+}
+
+.titulo {
+  font-family: 'Starjedi', sans-serif;
+  font-size: 3rem;
+}
+
+header {
+  margin-bottom: 2.5rem;
+}
+
+main {
+  width: 70%;
+  margin: 1rem auto;
+}
+
+hr {
+  margin: 4rem 0;
+  box-shadow: 0 0 5px #fff,0 0 8px #fff,0 0 12px #fff,0 0 15px #0000ff,0 0 25px #0000ff;
+}
+
+select {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: inherit;
+  font-size: 1.2rem;
+  border: 1px solid #f9d71c;
+  /* box-shadow: 0 0 5px #fff,0 0 8px #fff,0 0 12px #fff,0 0 15px #f9d71c,0 0 25px #f9d71c; */
+  border-radius: 5px;
+  outline: none;
+}
+
+option {
+  background-color: #232323;
+}
