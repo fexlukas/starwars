@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,22 +13,22 @@
   </header>
   <main>
     <hr>
-    <select name="opcoes" id="opcoes">
-        <option value="">Selecione o ator</option>
-    </select>
-    
     <div class="pesquisa">
       <h2>Escolha o personagem para saber mais</h2>
       <select id="selectPersonagem">
-        <option value="">Carregando...</option>
+         <option id="carregando" value="">Carregando...</option>
       </select>
     </div>
     <hr>
     <div class="resultado">
       <h3>A força está com:</h3>
-      
+         <div id="infoPersonagem"></div>
     </div>
   </main>
+  <audio>
+   <source src="audio/sound.mp3"></source>
+   Atualize o seu browser
+ </audio>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
